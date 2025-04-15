@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodiversidade Marinha</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+        }
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1, h2 {
+            color: #00796b;
+        }
+        .intro, .section {
+            margin-bottom: 30px;
+        }
+        .section {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .card {
+            width: 48%;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        footer {
+            background-color: #00796b;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Biodiversidade Marinha</h1>
+        <p>Explorando os ecossistemas marinhos e sua importância para o planeta</p>
+    </header>
+
+    <div class="container">
+        <section class="intro">
+            <h2>O que é Biodiversidade Marinha?</h2>
+            <p>A biodiversidade marinha refere-se à variedade de vida encontrada nos oceanos e mares. Ela inclui espécies marinhas como peixes, corais, moluscos, algas e mamíferos marinhos. Esses ecossistemas desempenham um papel crucial na regulação do clima e na saúde do planeta.</p>
+        </section>
+
+        <section class="section">
+            <div class="card">
+                <img src="file-Q74358ds8Z4Qs2h42fcrCc" alt="Recifes de Corais">
+                <div class="card-body">
+                    <h3>Recifes de Corais</h3>
+                    <p>Os recifes de corais são habitats extremamente ricos em biodiversidade e fornecem abrigo para milhares de espécies marinhas.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="file-PBWZpXH1nDc3H1PaqNR5WW" alt="Tartarugas Marinhas">
+                <div class="card-body">
+                    <h3>Tartarugas Marinhas</h3>
+                    <p>Esses incríveis répteis são essenciais para o equilíbrio dos ecossistemas marinhos, ajudando a manter as populações de medusas e outras espécies sob controle.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="card">
+                <img src="file-Rq3rTvoeNAxA1U9RLrvFzz" alt="Peixes Tropicais">
+                <div class="card-body">
+                    <h3>Peixes Tropicais</h3>
+                    <p>Os peixes tropicais são uma das faixas de biodiversidade mais vibrantes dos oceanos, com cores brilhantes e comportamentos fascinantes.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="file-RnSGsjt9ruQXbScs2gjuPY" alt="Mamíferos Marinhos">
+                <div class="card-body">
+                    <h3>Mamíferos Marinhos</h3>
+                    <p>Entre os mamíferos marinhos, baleias, golfinhos e peixes-boi são os mais conhecidos, sendo essenciais para a saúde dos oceanos.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 Biodiversidade Marinha. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
